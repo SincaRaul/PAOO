@@ -2,6 +2,6 @@
 
 int main()
 {
-    printf("Basescule\n");
+    printf("Orez\n");
     return 0;
 }
