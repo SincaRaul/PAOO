@@ -52,6 +52,8 @@ void ShoppingCart::addItem(const std::string &item)
 void ShoppingCart::displayCart() const
 {
     std::cout << "Shopping Cart Items:" << std::endl;
+    if (itemCount == 0)
+        std::cout << "E gol cosul boss. " << std::endl;
     for (int i = 0; i < itemCount; ++i)
     {
         std::cout << "- " << items[i] << std::endl;

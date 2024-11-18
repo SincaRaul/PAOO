@@ -11,16 +11,14 @@ private:
     int capacity;
 
 public:
-    // constr
-    ShoppingCart();
+       ShoppingCart();
 
-    // copy constr
     ShoppingCart(const ShoppingCart &other);
 
-    // move constr
     ShoppingCart(ShoppingCart &&other);
 
-    // distrugatorul(Destructor)
+    ShoppingCart &operator=(ShoppingCart &&other) = delete;
+
     ~ShoppingCart();
 
     void addItem(const std::string &item);

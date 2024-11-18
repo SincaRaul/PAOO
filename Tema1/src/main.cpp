@@ -3,19 +3,18 @@
 int main()
 {
     ShoppingCart cart1;
-    cart1.addItem("Apple");
-    cart1.addItem("Banana");
+    cart1.addItem("Otet");
+    cart1.addItem("Banane");
 
-    // copy constr
     ShoppingCart cart2 = cart1;
-    cart2.addItem("Orange");
+    cart2.addItem("Prune");
 
-    // move constr
     ShoppingCart cart3 = std::move(cart1);
 
-    cart2.displayCart(); // Should be Apple, Banana, Orange
-    cart3.displayCart(); // Should be Apple, Banana
-    // cart1 e gol pt ca move cosntr
+    cart2.displayCart();
+    cart3.displayCart();
+
+    cart1.displayCart();
 
     return 0;
 }

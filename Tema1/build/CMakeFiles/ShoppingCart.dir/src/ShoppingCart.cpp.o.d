@@ -1,7 +1,7 @@
 CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o: \
- /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/Tema1/src/ShoppingCart.cpp \
+ /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/ShoppingCart.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/Tema1/include/ShoppingCart.h \
+ /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/include/ShoppingCart.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
