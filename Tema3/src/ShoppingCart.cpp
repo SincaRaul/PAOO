@@ -1,13 +1,11 @@
 #include "ShoppingCart.h"
 #include <iostream>
 
-// constr
 ShoppingCart::ShoppingCart() : items(nullptr), itemCount(0), capacity(5)
 {
     items = new std::string[capacity];
 }
 
-// copy constr
 ShoppingCart::ShoppingCart(const ShoppingCart &other)
     : itemCount(other.itemCount), capacity(other.capacity)
 {
@@ -18,7 +16,6 @@ ShoppingCart::ShoppingCart(const ShoppingCart &other)
     }
 }
 
-// move constr
 ShoppingCart::ShoppingCart(ShoppingCart &&other)
     : items(other.items), itemCount(other.itemCount), capacity(other.capacity)
 {
@@ -27,7 +24,43 @@ ShoppingCart::ShoppingCart(ShoppingCart &&other)
     other.capacity = 0;
 }
 
-// distrugatorul(Destructor)
+ShoppingCart &ShoppingCart::operator=(const ShoppingCart &other)
+{
+
+    if (this == &other)
+        return *this;
+
+    delete[] items;
+
+    itemCount = other.itemCount;
+    capacity = other.capacity;
+    items = new std::string[capacity];
+    for (int i = 0; i < itemCount; ++i)
+    {
+        items[i] = other.items[i];
+    }
+
+    return *this;
+}
+
+ShoppingCart &ShoppingCart::operator=(ShoppingCart &&other)
+{
+    if (this == &other)
+        return *this;
+
+    delete[] items;
+
+    items = other.items;
+    itemCount = other.itemCount;
+    capacity = other.capacity;
+
+    other.items = nullptr;
+    other.itemCount = 0;
+    other.capacity = 0;
+
+    return *this;
+}
+
 ShoppingCart::~ShoppingCart()
 {
     delete[] items;
@@ -53,7 +86,10 @@ void ShoppingCart::displayCart() const
 {
     std::cout << "Shopping Cart Items:" << std::endl;
     if (itemCount == 0)
-        std::cout << "E gol cosul boss. " << std::endl;
+    {
+        std::cout << "E gol cosul boss." << std::endl;
+        return;
+    }
     for (int i = 0; i < itemCount; ++i)
     {
         std::cout << "- " << items[i] << std::endl;

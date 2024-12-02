@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1
+CMAKE_SOURCE_DIR = /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build
+CMAKE_BINARY_DIR = /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ShoppingCart.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/ShoppingCart.dir/flags.make
 CMakeFiles/ShoppingCart.dir/src/main.cpp.o: CMakeFiles/ShoppingCart.dir/flags.make
 CMakeFiles/ShoppingCart.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/ShoppingCart.dir/src/main.cpp.o: CMakeFiles/ShoppingCart.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ShoppingCart.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ShoppingCart.dir/src/main.cpp.o -MF CMakeFiles/ShoppingCart.dir/src/main.cpp.o.d -o CMakeFiles/ShoppingCart.dir/src/main.cpp.o -c /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ShoppingCart.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ShoppingCart.dir/src/main.cpp.o -MF CMakeFiles/ShoppingCart.dir/src/main.cpp.o.d -o CMakeFiles/ShoppingCart.dir/src/main.cpp.o -c /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/src/main.cpp
 
 CMakeFiles/ShoppingCart.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ShoppingCart.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/main.cpp > CMakeFiles/ShoppingCart.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/src/main.cpp > CMakeFiles/ShoppingCart.dir/src/main.cpp.i
 
 CMakeFiles/ShoppingCart.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ShoppingCart.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/main.cpp -o CMakeFiles/ShoppingCart.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/src/main.cpp -o CMakeFiles/ShoppingCart.dir/src/main.cpp.s
 
 CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o: CMakeFiles/ShoppingCart.dir/flags.make
 CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o: ../src/ShoppingCart.cpp
 CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o: CMakeFiles/ShoppingCart.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o -MF CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o.d -o CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o -c /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/ShoppingCart.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o -MF CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o.d -o CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o -c /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/src/ShoppingCart.cpp
 
 CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/ShoppingCart.cpp > CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/src/ShoppingCart.cpp > CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.i
 
 CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/src/ShoppingCart.cpp -o CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/src/ShoppingCart.cpp -o CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.s
 
 # Object files for target ShoppingCart
 ShoppingCart_OBJECTS = \
@@ -109,7 +109,7 @@ ShoppingCart: CMakeFiles/ShoppingCart.dir/src/main.cpp.o
 ShoppingCart: CMakeFiles/ShoppingCart.dir/src/ShoppingCart.cpp.o
 ShoppingCart: CMakeFiles/ShoppingCart.dir/build.make
 ShoppingCart: CMakeFiles/ShoppingCart.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ShoppingCart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ShoppingCart"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ShoppingCart.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/ShoppingCart.dir/clean:
 .PHONY : CMakeFiles/ShoppingCart.dir/clean
 
 CMakeFiles/ShoppingCart.dir/depend:
-	cd /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1 /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1 /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build /mnt/c/Users/sinca/Desktop/Facultate/AN4/PAOO/paOO/tema1/build/CMakeFiles/ShoppingCart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1 /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1 /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build /mnt/c/Users/sinca/OneDrive/Desktop/Facultate/An4/PAOO/tema3/paoo/tema1/build/CMakeFiles/ShoppingCart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ShoppingCart.dir/depend
 

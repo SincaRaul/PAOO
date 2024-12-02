@@ -6,10 +6,12 @@ int main()
     cart1.addItem("Otet");
     cart1.addItem("Banane");
 
-    ShoppingCart cart2 = cart1;
+    ShoppingCart cart2;
+    cart2 = cart1; // cpy assignment operator
     cart2.addItem("Prune");
 
-    ShoppingCart cart3 = std::move(cart1);
+    ShoppingCart cart3;
+    cart3 = std::move(cart1); // move -"-
 
     cart2.displayCart();
     cart3.displayCart();
