@@ -11,13 +11,15 @@ private:
     int capacity;
 
 public:
-       ShoppingCart();
+    ShoppingCart();
 
     ShoppingCart(const ShoppingCart &other);
 
     ShoppingCart(ShoppingCart &&other);
 
-    ShoppingCart &operator=(ShoppingCart &&other) = delete;
+    ShoppingCart &operator=(const ShoppingCart &other);
+
+    ShoppingCart &operator=(ShoppingCart &&other);
 
     ~ShoppingCart();
 
